@@ -12,7 +12,7 @@ function EventLogistics(props) {
     year: 'numeric',
   });
   
-  const addressText = address ? address.replace(', ', '\n') : 'Address not available';
+  const addressText = address ? address.replace(',', '\n') : 'Address not available';
 
   return (
     <section className={classes.logistics}>
